@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section{
+    background-image: url(imgs/bg3.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+    display: flow-root;
+}
+.content{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.section h1{
+    font-size: 80px;
+    font-family: Impact;
+}
+p{
+    font-size: 35px;
+}
+button{
+    width: 250px;
+    height: 80px;
+    background-color: #e9c115;
+    color: white;
+    border-radius: 50px;
+    transition: 0.2s  background-color;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+button:hover{
+    background-color: rgb(136, 101, 12);
+}
+@media screen and (max-width:590px){
+   .content{
+    margin-top: 120px;
+   }
+   
+    .section h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
